@@ -1,0 +1,157 @@
+/*
+    ARQUIVO CRIADO PARA PERSONALIZAR LAYOUT
+*/
+
+#divMain .actions{
+    margin-top:10px;
+}
+
+.tabela-div{
+    margin-top: 10px;
+}
+
+label{
+    display: block;
+}
+
+/* JQUERY VALIDADE - ERRO DE PREENCHIMENTO */
+label.error { 
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    font-weight: bold;
+}
+
+/* TABELA - ALTERNA AS CORES DAS LINHAS IMPÁRES E PARES */
+table > tbody > tr:nth-child(even) > td,
+table > tbody > tr:nth-child(even) > th {
+    background-color:#CCC;
+}
+
+/* TABELA - ALINHAMENTO CENTRALIZADO DA ÚLTIMA COLUNA DA TABELA */
+table tbody tr td:last-child{
+    text-align: center;
+}
+
+/* TABELA - ALINHAMENTO CENTRALIZADO DA ÚLTIMA COLUNA DA TABELA */
+table th:last-child{
+    text-align: center;
+}
+
+/* AUMENTA E DÁ UM ESPAÇAMENTO DIREITO NOS ICONES */
+.glyphicon{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* DESTACA A PÁGINA ATIVA DA PAGINAÇÃO */
+#paginacaoAtiva{
+    color: black;
+}
+
+/* DEIXA VERMELHO O ASTERISTICO DO CAMPO OBRIGATÓRIO */
+.obrigatorio{
+    color: red;
+}
+
+/* ESPAÇAMENTO ESQUERDO NOS SPAN DA LISTA DE RELATÓRIOS */
+.spanRelatorio{
+    padding-left:10px;
+}
+
+#pInstrucoes{
+    font-size: 13px;
+}
+
+#linhaExcluida{
+    color: red;
+}
+
+/* ESTILIZA OS H5 DOS GRÁFICOS */
+.tituloGrafico{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* LINK DO DESCRIVO DE ALGUMA FUNCIONALIDADE */
+.descritivo_manual{
+    float: right;
+    font-weight: normal;
+}
+
+#idPermissoes{
+    list-style-type: none;
+}
+
+.linkDireita{
+    float: right;
+}
+
+.sublinhado{
+    text-decoration:  underline;
+}
+
+#usuario{
+    text-align: right; 
+    padding: 10px 110px 10px 10px;
+}
+
+#lista_perfis_relatorio{
+    overflow:auto; 
+    height: 180px;
+}
+
+/* Imprimir dashboard */
+.printDashboard{
+	display:block; 
+	text-align: right;
+}
+
+/* Espaçamento na div que armazena os campos de preechimento para exibição do dashboard */
+.dashCamPreechimento{
+    margin-bottom: 10px;
+}
+
+/* Div que armazena o dashboard */
+.divDashboard{
+    width: 99%;
+    margin-bottom: 10px;
+}
+
+
+/*
+PERSONALIZAÇÃO DO DRAG AND DROP
+*/
+#lista_perfis_relatorio{
+    overflow:auto; 
+    height: 180px;
+}
+
+#sourceFields{
+	background-color: #ccc;
+	width: 50%;
+	height: 100%;
+}
+
+#destinationFields{
+	background-color: #ccc;
+	width: 50%;
+	height: 100%;
+}
+
+#sourceFields div{
+	width: 98%;
+}
+
+#destinationFields div{
+	width: 98%;
+}
+
+/*####################*/
